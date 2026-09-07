@@ -123778,7 +123778,7 @@ r=o.glt()
 r=A.E(A.a([B.ayE,A.k("\u20b9"+A.kJ(m,"en_IN").ed(s+r),n,n,n,B.awb,n,n,n)],i),B.d5,n,B.c,B.G,0,B.i)
 s=b?86:100
 s=A.wG(B.O0,new A.aUT(a),A.eZ(n,n,n,n,n,n,n,n,n,B.K,n,new A.J(s,42),n,n,new A.aS(A.i(10),B.u),B.bk,n,n,n,n))
-q=A.k(b?"Save":"Save Details",n,n,n,B.lD,n,n,n)
+q=A.k(b?"Save":"Save Booking",n,n,n,B.lD,n,n,n)
 p=b?90:126
 return A.A(n,A.B(A.a([h,r,B.an,s,B.c1,A.HW(B.a45,q,new A.aUU(o,a),A.Al(B.t,n,0,B.j,new A.J(p,42),B.zb,new A.aS(A.i(10),B.u),n))],i),B.f,B.c,B.d,0,n),B.h,n,n,B.wY,n,n,n,n,new A.R(l,13,k,j),n,n,n)}}
 A.aVm.prototype={
@@ -133194,7 +133194,7 @@ i.a=i.b=null
 n=new A.aqr(i)
 p=4
 l=v.G
-k=l.window.open("https://staging.hashqsoft.in/#/GoogleLogin","googleLoginPopup","width=500,height=700,resizable=yes,scrollbars=yes")
+k=l.window.open("https://staging.hashqsoft.in/GoogleLogin","googleLoginPopup","width=500,height=700,resizable=yes,scrollbars=yes")
 i.b=k
 if(k==null){i=A.a7(["success",!1,"error","popup_blocked","message","Popup was blocked by the browser. Please check your address bar to allow popups."],t.N,t.z)
 q=i
