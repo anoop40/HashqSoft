@@ -133494,7 +133494,7 @@ i.a=i.b=i.c=null
 n=new A.ayi(i)
 p=4
 l=v.G
-k=l.window.open("http://localhost:54429/mode/PhoneAuth","phoneAuthPopup",u.L)
+k=l.window.open("https://staging.hashqsoft.in/mode/PhoneAuth","phoneAuthPopup",u.L)
 i.c=k
 if(k==null){i=A.a7(["success",!1,"error","popup_blocked","message","Popup was blocked by the browser. Please allow popups and try again."],t.N,t.z)
 q=i
