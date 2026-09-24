@@ -131805,7 +131805,7 @@ j=A.cC(this.a1Q(a,!0),B.cO,l,l,l,B.B)
 s=A.bv(A.cC(A.aJ(this.a1Q(a,!1),l,500),B.cO,l,l,l,B.B),l,l)
 r=A.C(a).ax
 q=t.p
-p=A.H(A.u(l,A.B(A.a([A.z(A.a([A.u(l,B.a7r,B.h,l,l,new A.t(B.j.bN(0.2),l,l,l,l,l,B.aN),l,l,l,l,B.i5,l,l,l),B.ab,A.j("MyBoat",l,l,l,A.bfS().$3$color$fontSize$fontWeight(B.j,22,B.v),l,l,l)],q),B.f,B.b,B.c,0,l),A.B(A.a([A.j("Streamline your\nhouseboat operations.",l,l,l,A.bfS().$4$color$fontSize$fontWeight$height(B.j,44,B.v,1.15),l,l,l),B.ah,A.j("The all-in-one platform built for modern fleet management, real-time tracking, and seamless customer bookings.",l,l,l,A.aeW().$3$color$fontSize$height(A.aa(217,B.j.m()>>>16&255,B.j.m()>>>8&255,B.j.m()&255),17,1.6),l,l,l)],q),B.o,l,B.b,B.c,0,B.i),A.j("\xa9 "+A.az(new A.bp(Date.now(),0,!1))+" MyBoat Platform. All rights reserved.",l,l,l,A.aeW().$2$color$fontSize(A.aa(153,B.j.m()>>>16&255,B.j.m()>>>8&255,B.j.m()&255),13),l,l,l)],q),B.o,l,B.ao,B.c,0,B.i),B.h,l,l,new A.t(r.b,l,l,l,l,l,B.k),l,l,l,l,B.a2L,l,l,l),6)
+p=A.H(A.u(l,A.B(A.a([A.z(A.a([A.u(l,B.a7r,B.h,l,l,new A.t(B.j.bN(0.2),l,l,l,l,l,B.aN),l,l,l,l,B.i5,l,l,l),B.ab,A.j("MyBusiness",l,l,l,A.bfS().$3$color$fontSize$fontWeight(B.j,22,B.v),l,l,l)],q),B.f,B.b,B.c,0,l),A.B(A.a([A.j("Streamline your\nbusiness operations.",l,l,l,A.bfS().$4$color$fontSize$fontWeight$height(B.j,44,B.v,1.15),l,l,l),B.ah,A.j("The all-in-one platform built for modern business management, real-time tracking, and seamless customer bookings.",l,l,l,A.aeW().$3$color$fontSize$height(A.aa(217,B.j.m()>>>16&255,B.j.m()>>>8&255,B.j.m()&255),17,1.6),l,l,l)],q),B.o,l,B.b,B.c,0,B.i),A.j("\xa9 "+A.az(new A.bp(Date.now(),0,!1))+" MyBusiness Platform. All rights reserved.",l,l,l,A.aeW().$2$color$fontSize(A.aa(153,B.j.m()>>>16&255,B.j.m()>>>8&255,B.j.m()&255),13),l,l,l)],q),B.o,l,B.ao,B.c,0,B.i),B.h,l,l,new A.t(r.b,l,l,l,l,l,B.k),l,l,l,l,B.a2L,l,l,l),6)
 o=r.k3
 n=A.j("Welcome back",l,l,l,A.bfS().$3$color$fontSize$fontWeight(o,28,B.v),l,l,l)
 m=r.ry
@@ -131813,7 +131813,7 @@ if(m==null){m=r.u
 o=m==null?o:m}else o=m
 return A.eL(l,k,A.eC(!0,new A.o4(j,s,A.z(A.a([p,A.H(A.u(l,A.bv(A.cC(new A.bJ(B.qC,A.B(A.a([n,B.a5,A.j("Please enter your details to sign in.",l,l,l,A.aeW().$2$color$fontSize(o,14),l,l,l),B.w7,this.a29(a)],q),B.bg,l,B.aY,B.c,0,B.i),l),B.a2K,l,l,l,B.B),l,l),B.h,r.k2,l,l,l,l,l,l,l,l,l,l),6)],q),B.bg,B.b,B.c,0,l),l),!0,B.Q,!0,!0),l,l,l)},
 a1Q(a,b){var s=null,r=A.C(a),q=b?24:32,p=r.ax,o=A.e(20),n=A.a([new A.b2(0,B.P,B.r.bN(0.05),B.lN,20)],t.V)
-return A.u(s,A.B(A.a([A.ao(B.BD,p.b,s,48),B.ac,A.j("MyBoat",s,s,s,A.bfS().$3$color$fontSize$fontWeight(p.k3,24,B.v),s,s,s),B.b6,this.a29(a)],t.p),B.f,s,B.b,B.G,0,B.i),B.h,s,s,new A.t(p.k2,s,s,o,n,s,B.k),s,s,s,s,new A.G(q,q,q,q),s,s,1/0)},
+return A.u(s,A.B(A.a([A.ao(B.BD,p.b,s,48),B.ac,A.j("MyBusiness",s,s,s,A.bfS().$3$color$fontSize$fontWeight(p.k3,24,B.v),s,s,s),B.b6,this.a29(a)],t.p),B.f,s,B.b,B.G,0,B.i),B.h,s,s,new A.t(p.k2,s,s,o,n,s,B.k),s,s,s,s,new A.G(q,q,q,q),s,s,1/0)},
 a29(a){var s,r,q,p,o,n=this,m=null,l=A.C(a),k=t.p,j=A.a([new A.Cc(B.aeh,A.d4([n.d],t.y),new A.b_S(n),m,t.Y0),B.b6],k)
 if(!n.d){s=A.ek(!0,n.r,B.abN,m,!1,m,m,B.iK,1,!1,m,m,m,m,m,m,B.a_,B.aj,m,m)
 r=n.e
