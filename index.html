@@ -54,7 +54,48 @@
       100% { transform: rotate(360deg); }
     }
   </style>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 
+  <script>
+    window.openRazorpayCheckout = function (
+      optionsJson,
+      onSuccess,
+      onFailure,
+      onDismiss
+    ) {
+      try {
+        const options = JSON.parse(optionsJson);
+        let completed = false;
+
+        options.handler = function (response) {
+          completed = true;
+          onSuccess(JSON.stringify(response));
+        };
+
+        options.modal = {
+          ondismiss: function () {
+            if (!completed) {
+              onDismiss();
+            }
+          }
+        };
+
+        const razorpay = new Razorpay(options);
+
+        razorpay.on('payment.failed', function (response) {
+          completed = true;
+          onFailure(JSON.stringify(response));
+        });
+
+        razorpay.open();
+
+      } catch (error) {
+        onFailure(JSON.stringify({
+          message: error.message
+        }));
+      }
+    };
+  </script>
 </head>
 <body>
 <!-- HTML Loader: Appears instantly before Flutter JavaScript initializes -->
